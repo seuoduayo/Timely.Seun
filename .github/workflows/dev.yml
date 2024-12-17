@@ -7,6 +7,9 @@ on:
   push:
     branches: [develop]
 
+permisions:
+  contents: write
+
 jobs:
   versioning:
     uses: ./.github/workflows/release.yml
