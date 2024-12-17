@@ -11,6 +11,9 @@ on:
         type: string
         default: Build
 
+permisions:
+  contents: write
+
 jobs:
   bump-package-json-version:
     runs-on: ubuntu-latest
