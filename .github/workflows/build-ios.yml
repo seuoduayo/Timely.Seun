@@ -21,7 +21,7 @@ on:
 
 jobs:
   build-ios:
-    runs-on: macos-12 #Monterey
+    runs-on: macos-15 #Monterey
     steps:
       - uses: actions/checkout@v2
 
